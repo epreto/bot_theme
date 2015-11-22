@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Stylish Portfolio - Start Bootstrap Theme</title>
+    <title>BotOlympics</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -32,41 +32,29 @@
 
 <body>
 
-    <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); >Start Bootstrap</a>
-            </li>
-            <li>
-                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
-            </li>
-            <li>
-                <a href="#about" onclick = $("#menu-close").click(); >About</a>
-            </li>
-            <li>
-                <a href="#services" onclick = $("#menu-close").click(); >Services</a>
-            </li>
-            <li>
-                <a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a>
-            </li>
-            <li>
-                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
-            </li>
-        </ul>
-    </nav>
+  <!-- Navigation -->
+  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+  <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+          <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+          <li class="sidebar-brand">
+              <a href="#top"  onclick = $("#menu-close").click(); ></a>
+          </li>
+          <li>
+              <a href="/edicao2015/index.html" onclick = $("#menu-close").click(); >Edição 2015</a>
+          </li>
+      </ul>
+  </nav>
 
-    <!-- Header -->
-    <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1>Start Bootstrap</h1>
-            <h3>Free Bootstrap Themes &amp; Templates</h3>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
-        </div>
-    </header>
+  <!-- Header -->
+  <header id="top" class="header">
+      <div class="text-vertical-center">
+          <img class = "logo" src="img/logo.png" class="img-responsive">
+            <h2 style="color: white">26|27|28 Fevereiro e 2 de Março 2016 </h2>
+          <br>
+          <a href="#" class="btn btn-dark btn-lg">Brevemente</a>
+      </div>
+  </header>
 
     <!-- About -->
     <section id="about" class="about">
@@ -168,35 +156,28 @@
                     <h2>Our Work</h2>
                     <hr class="small">
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                </a>
-                            </div>
+                        <div class="col-md-6 portfolio-item">
+                          <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                              <div class="caption">
+                                  <div class="caption-content">
+                                      <i class="fa fa-search-plus fa-3x"></i>
+                                  </div>
+                              </div>
+                              <img src="img/portfolio-1.jpg" class="img-responsive" alt="">
+                          </a>
                         </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                </a>
-                            </div>
+
+                        <div class="col-md-6 portfolio-item">
+                          <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                              <div class="caption">
+                                  <div class="caption-content">
+                                      <i class="fa fa-search-plus fa-3x"></i>
+                                  </div>
+                              </div>
+                              <img src="img/portfolio-1.jpg" class="img-responsive" alt="">
+                          </a>
                         </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+
                     <!-- /.row (nested) -->
                     <a href="#" class="btn btn-dark">View More Items</a>
                 </div>
