@@ -41,7 +41,10 @@
               <a href="#top"  onclick = $("#menu-close").click(); ></a>
           </li>
           <li>
-              <a href="/edicao2015/index.html" onclick = $("#menu-close").click(); >Edição 2015</a>
+              <a href="#about" onclick = $("#menu-close").click(); >Sobre</a>
+              <a href="#competitions" onclick = $("#menu-close").click(); >Competições</a>
+              <a href="#editions" onclick = $("#menu-close").click(); >Edição 2015</a>
+              <a href="#contact" onclick = $("#menu-close").click(); >Contactos</a>
           </li>
       </ul>
   </nav>
@@ -51,8 +54,8 @@
       <div class="text-vertical-center">
           <img class = "logo" src="img/logo.png" class="img-responsive">
             <h2 style="color: white">26|27|28 Fevereiro e 2 de Março 2016 </h2>
+            <a href="#about" class="btn btn-lg btn-light">Saber mais</a>
           <br>
-          <a href="#" class="btn btn-dark btn-lg">Brevemente</a>
       </div>
   </header>
 
@@ -60,39 +63,47 @@
     <section id="about" class="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-                    <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+              <div class="col-lg-12 text-center">
+                  <h1>O que é o BOT OLYMPICS?</h1>
+                  <hr class="small"></hr>
+              </div>
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-4 col-sm-4 col-xs-1"></div>
+                <div class="col-lg-4 col-sm-4 col-xs-10 text-left">
+                    <h2 class="lead">BOT OLYMPICS é uma competição de robótica com uma componente formativa que abordará a contrução de um robot.</p>
                 </div>
+                <div class="col-lg-4 col-sm-4 col-xs-1"></div>
             </div>
             <!-- /.row -->
         </div>
         <!-- /.container -->
     </section>
 
-    <!-- Services -->
+    <!-- Competitions -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
+    <section id="competitions" class="services bg-primary">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Our Services</h2>
+                    <h1>Competições</h1>
                     <hr class="small">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-4 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                                <i class="fa fa-university fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>Service Name</strong>
+                                    <strong>Universidades</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 <a href="#" class="btn btn-light">Learn More</a>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-4 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -105,24 +116,11 @@
                                 <a href="#" class="btn btn-light">Learn More</a>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-4 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-flask fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
                                     <strong>Service Name</strong>
@@ -141,52 +139,34 @@
         <!-- /.container -->
     </section>
 
+    <!-- Portfolio -->
+    <section id="editions" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Edição 2015</h2>
+                    <hr class="small">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9Phx7OKJ8Ek"></iframe>
+                        </div>
+                </div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-12 text-center">
+                    <a href="/edicao2015/index.html" class="btn btn-lg btn-dark">Queres saber mais?</a>
+                  </div>
+              </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
     <!-- Callout -->
     <aside class="callout">
         <div class="text-vertical-center">
             <h1>Vertically Centered Text</h1>
         </div>
     </aside>
-
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6 portfolio-item">
-                          <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                              <div class="caption">
-                                  <div class="caption-content">
-                                      <i class="fa fa-search-plus fa-3x"></i>
-                                  </div>
-                              </div>
-                              <img src="img/portfolio-1.jpg" class="img-responsive" alt="">
-                          </a>
-                        </div>
-
-                        <div class="col-md-6 portfolio-item">
-                          <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                              <div class="caption">
-                                  <div class="caption-content">
-                                      <i class="fa fa-search-plus fa-3x"></i>
-                                  </div>
-                              </div>
-                              <img src="img/portfolio-1.jpg" class="img-responsive" alt="">
-                          </a>
-                        </div>
-
-                    <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
 
     <!-- Call to Action -->
     <aside class="call-to-action bg-primary">
@@ -203,44 +183,33 @@
 
     <!-- Map -->
     <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48755.789284588616!2d-8.399598431396484!3d40.20379451447572!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd22f99534710f55%3A0x6f9fbebbec1bd8ea!2sDepartamento+de+Engenharia+Electrot%C3%A9cnica+e+de+Computadores!5e0!3m2!1spt-PT!2spt!4v1448855198619"></iframe>
         <br />
         <small>
-            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+            <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48755.789284588616!2d-8.399598431396484!3d40.20379451447572!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd22f99534710f55%3A0x6f9fbebbec1bd8ea!2sDepartamento+de+Engenharia+Electrot%C3%A9cnica+e+de+Computadores!5e0!3m2!1spt-PT!2spt!4v1448855198619"></a>
         </small>
         </iframe>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Start Bootstrap</strong>
-                    </h4>
-                    <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">name@example.com</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
-                </div>
-            </div>
-        </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-10 col-lg-offset-1 text-center">
+                  <h2><strong>Mais informações?</strong></h2>
+                  <ul class="list-unstyled">
+                      <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:botolympics@deec.uc.pt">botolympics@deec.uc.pt</a>
+                      </li>
+                  </ul>
+                  <br>
+                  <ul class="list-inline">
+                      <li>
+                          <a href="https://www.facebook.com/botolympics"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
     </footer>
 
     <!-- jQuery -->
