@@ -245,6 +245,11 @@ img.logo {
   max-width: 90vw;
 }
 
+img.icon{
+  margin-left:auto;
+  margin-right:auto;
+}
+
 a.btn.btn-lg.btn-dark {
   margin-top: 15px;
 }
